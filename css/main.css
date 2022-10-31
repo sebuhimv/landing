@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar Section */
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar .links a {
+    padding: 0.75rem;
+}
+
+#navbar .links a:hover {
+    background-color: #335ea2;
+    border-radius: 5px;
+}
+
+/* Home Section*/
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name h2 {
+    margin-bottom: 0.75rem;
+}
+
+#home .name p {
+    opacity: .6;
+    font-style: italic;
+}
+
+/* Services */
+#services {
+    color: #fff;
+    padding: 1rem;
+}
+
+#services .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#services .items .item {
+    width: 33%;
+    text-align: center;
+    padding: .5rem;
+}
+
+#services .items .item:hover {
+    color: red;
+    opacity: .5;
+}
+
+/* Courses */
+#contents {
+    color: #333;
+    padding: 1rem;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.contents .content {
+    display: flex;
+    padding: .5rem;
+    margin-bottom: .5rem;
+}
+
+.contents .content .content-image {
+    margin-right: .5rem;
+    position: relative;
+}
+
+.contents .content .content-image img {
+    border-radius: 5px;
+}
+
+.contents .content .content-image span {
+    background-color: red;
+    padding: .25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.contents .content .content-info .title {
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: .25rem;
+}
+
+.contents .content .content-info .description {
+    letter-spacing: 1.2px;
+    margin-bottom: .25rem;
+    opacity: .6;
+}
+
+.contents .content .content-info .instructor {
+    font-size: .8rem;
+    margin-bottom: .25rem;
+    opacity: .6;
+}
+
+.contents .content .content-info .rating {
+    font-size: .8rem;
+    margin-bottom: .25rem;
+    opacity: .6;
+}
+
+/* Contact */
+#contact {
+    color: #fff;
+    padding: 1rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .form-links{
+    align-self: center;
+}
+#contact .form-links a .fab{
+    font-size: 2rem;
+    margin: 0.75rem;
+    align-self: center;
+    padding: 1rem;
+}
+#contact .form-links a .fab:hover{
+    opacity: .8;
+}
